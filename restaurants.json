@@ -1,0 +1,29 @@
+{ "restaurants": [{
+    "name": "Veruca Salt",
+    "city": "San Francisco",
+    "type": "Restaurant",
+    "description": "20 seater, family-oriented restaurant",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }, {
+    "name": "CafeBucks",
+    "city": "Seattle",
+    "type": "Cafe",
+    "description": "20 seater, best serving coffee shop",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+  }, {
+    "name": "Mami Camilla",
+    "city": "Portland",
+    "type": "Pizzeria",
+    "description": "little piece of Italy",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+    "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
+  }]
+}

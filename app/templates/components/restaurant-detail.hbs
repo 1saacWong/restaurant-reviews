@@ -1,0 +1,11 @@
+{{restaurant.name}} located in {{restaurant.city}}
+<img src={{restaurant.image}}>
+<br>
+<h2>Reviews </h2>
+<ul>
+  {{#each sortedReviews as |review|}}
+    {{review-tile review=review destroyReview="destroyReview"}}
+  {{/each}}
+</ul>
+
+<button {{action 'delete' restaurant}}>Delete</button>

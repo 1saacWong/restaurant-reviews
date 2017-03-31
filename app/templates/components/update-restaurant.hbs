@@ -1,0 +1,35 @@
+{{#if updateRestaurantForm}}
+  <h4>Update {{restaurant.name}}'s info</h4>
+  <div>
+    <form>
+       <div class="form-group">
+        <label for="name">Name</label>
+        {{input value=name id="name" placeholder=restaurant.name}}
+      </div>
+
+      <div class="form-group">
+        <label for="city">City</label>
+        {{input value=city id="city" placeholder=restaurant.city}}
+      </div>
+
+      <div class="form-group">
+        <label for="type">Type</label>
+        {{input value=type id="type" placeholder=restaurant.type}}
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        {{input value=description id="description" placeholder=restaurant.description}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image"}}
+      </div>
+
+      <button {{action 'update' restaurant}}>Update</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'updateRestaurantForm'}}>Update</button>
+{{/if}}

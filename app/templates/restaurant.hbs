@@ -1,0 +1,7 @@
+<h2>More information about {{model.name}}'s {{model.city}}</h2>
+
+{{update-restaurant restaurant=model update="update"}}
+
+{{restaurant-detail restaurant=model destroyRestaurant = 'destroyRestaurant' destroyReview="destroyReview"}}
+
+{{new-review saveReview="saveReview" restaurant=model}}

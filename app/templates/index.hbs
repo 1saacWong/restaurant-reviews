@@ -1,0 +1,22 @@
+<h1> Welcome to Super Restaurant </h1>
+
+We hope you find exactly what you're looking for in a place to stay.
+
+<ul>
+  {{#each model.restaurants as |restaurant|}}
+    {{restaurant-popularity restaurant}} {{restaurant-tile restaurant=restaurant}}
+      {{restaurant-cost restaurant}}
+  {{/each}}
+</ul>
+
+{{new-restaurant saveRestaurant2="saveRestaurant3"}}
+
+<!-- <h2> All Reviews </h2>
+
+<ul>
+  {{#each model.reviews as |review|}}
+    <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
+  {{/each}}
+</ul> -->
+
+<!-- {{new-review saveReview="saveReview"}} -->
