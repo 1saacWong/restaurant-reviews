@@ -1,7 +1,6 @@
 # restaurant-review
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an independent project built with ember. It is a restaurant-review crowdsourced website.
 
 ## Prerequisites
 
